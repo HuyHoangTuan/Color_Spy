@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
@@ -54,17 +52,17 @@ public class Player : MonoBehaviour
 
     protected void OnTriggerEnter(Collider other)
     {
-        print("ENTER");
+        // print("ENTER");
     }
     
     protected void OnTriggerStay(Collider other)
     {
-        print("STAY");
+        // print("STAY");
     }
     
     protected void OnTriggerExit(Collider other)
     {
-        print("Exit");
+        // print("Exit");
     }
 
    
